@@ -158,13 +158,61 @@ ul, li{
 	margin-top: -7px;
 	float: left;
 }
+.email-advantages{
+	clear: both;
+}
+.count{
+	font-size: 140px;
+	margin: 0;
+	padding: 0;
+	color: #eee;
+	font-weight: bold;
+	float: left;
+	display: inline-block;
+	line-height: .75;
+	margin-left: -22px;
+}
+.advantages-item{
+	background-image: -moz-linear-gradient( 0deg, rgb(237,89,66) 0%, rgb(245,152,60) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(237,89,66) 0%, rgb(245,152,60) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(237,89,66) 0%, rgb(245,152,60) 100%);
+	height: 100px;
+	width: 91%;
+	display: inline-block;
+	float: right;
+	margin-top: -103px;
+	padding-left: 20px;
+	overflow: hidden;
+}
+.advantages-item-text{
+	width: 50%;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+}
+.advantages-item-img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: #fff;
+	float: right;
+	margin-top: -75px;
+	margin-right: -30px;
+	-webkit-background-size: auto;
+	background-size: auto;
+	background-position: left 20px center;
+	background-repeat: no-repeat;
+}
 
 
 
 
 
 
-
+.email-projects{
+	clear: both;
+}
 
 @media screen and (max-width: 600px){
 	.email-header-text{
