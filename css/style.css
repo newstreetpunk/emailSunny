@@ -131,6 +131,34 @@ ul, li{
 	background-repeat: no-repeat;
 	background-position: top 5px left;
 }
+.logo-block{
+	padding-top: 30px;
+	vertical-align: middle;
+}
+.logo-block-text{font-weight: bold;display: inline-block;vertical-align: middle;}
+.logo-bottom{
+	float: right;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 18px;
+	margin-top: -7px;
+	height: 50px;
+	line-height: 50px;
+	background-image: -moz-linear-gradient( 180deg, rgb(235,78,66) 0%, rgb(247,162,59) 100%);
+	background-image: -webkit-linear-gradient( 180deg, rgb(235,78,66) 0%, rgb(247,162,59) 100%);
+	background-image: -ms-linear-gradient( 180deg, rgb(235,78,66) 0%, rgb(247,162,59) 100%);
+}
+.logo-bottom img{
+	width: 50px;
+	height: auto;
+	margin-top: -7px;
+	float: left;
+}
+
 
 
 
@@ -149,8 +177,13 @@ ul, li{
 	.email-our-img{
 		margin-right: 38px;
 	}
+	.logo-bottom{padding: 0 10px;}
+
 }
 @media screen and (max-width: 557px){
+	.logo-block-text{display: block;text-align: center;}
+	.logo-bottom{float: none;margin: 0 auto; margin-top: 15px;}
+	.logo-block{text-align: center;}
 	.email-target img{float: none;margin: 0 auto;padding-right: 0;}
 	.email-target ul{width: 100%;}
 	h2{
@@ -180,4 +213,5 @@ ul, li{
 		text-align: center;
 		display: block;
 	}
+	.logo-bottom img{margin: 0; float: left;margin-top: -7px;margin-right: 10px;}
 }
