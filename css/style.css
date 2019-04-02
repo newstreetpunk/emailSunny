@@ -22,16 +22,17 @@ p{line-height: 20px;}
 	padding: 45px 0;
 }
 .email-wrap{
-	max-width: 540px;
+	max-width: 600px;
 	height: 100%;
 	margin: 0 auto;
 	background-color: #fff;
-	padding: 40px 28px 0;
+	padding: 40px 0 0;
 	border: 2px solid #e9e9e9;
 	font-family: 'Trebuchet MS','Helvetica', sans-serif;
 	font-size: 16px;
 	color: #0a0a0a;
 }
+.email-header{padding: 0 26px;}
 .email-header-text,.logo{
 	display: inline-block;
 	vertical-align: top;
@@ -48,75 +49,47 @@ p{line-height: 20px;}
 	margin-top: 22px;
 }
 .header-text-descr b{text-transform: uppercase;}
-
-.email-services-item {
+.services-img{
 	display: inline-block;
-	background-image: -moz-linear-gradient( 90deg, rgb(247,162,59) 0%, rgb(235,77,66) 100%);
-	background-image: -webkit-linear-gradient( 90deg, rgb(247,162,59) 0%, rgb(235,77,66) 100%);
-	background-image: -ms-linear-gradient( 90deg, rgb(247,162,59) 0%, rgb(235,77,66) 100%);
-	box-shadow: 0px 0px 17.64px 3.36px rgba(0, 0, 0, 0.17);
-	max-width: 260px;
+	padding-left: 26px;
+	padding-right: 26px;
+	padding-bottom: 26px;
+}
+.email-services{text-align: center;}
+.email-services img {
 	width: 100%;
-	height: 162px;
-	float: left;
-	margin-bottom: 38px;
-	overflow: hidden;
-	text-decoration: none;
-	text-align: center;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: bold;
+	height: auto;
 }
-.email-services-item:nth-child(odd){
-	float: right;
-	margin-right: 0;
-}
-.services-item-img{
-	-webkit-background-size: 269px 162px;
-	background-size: 269px 162px;
-	background-repeat: no-repeat;
-	background-position: top 120% center;
-	width: 450px;
-	height: 300px;
-	border-radius: 50%;
-	display: block;
-	background-color: #FFFFFF;
-	text-align: center;
-	margin-left: -95px;
-	margin-top: -180px;
-	overflow: hidden;
-}
-.services-item-img img{
-	width: 269px;
-	height: 100%;
-}
-.services-item-title{padding-top: 11px;display: block;}
-.email-no-services{clear: both;}
+.email-no-services{text-align: center;}
 .email-no-services h2{padding-top: 22px;}
-.email-no-services-item{float: left;width: 260px;box-shadow: 0px 0px 17.64px 3.36px rgba(0, 0, 0, 0.07);}
-.email-no-services-item:last-child{float: right;}
+.email-no-services-item{width: 244px;display: inline-block;padding-left: 26px;padding-right: 26px;margin-bottom: 20px;}
 .email-no-services-item img{width: 100%;height: 100%;}
-.email-our{clear: both;padding-top: 50px;}
+.email-our{padding-top: 40px;text-align: center;}
 .email-our-img{
-	margin-right: 48px;
+	padding: 0 26px;
+	margin-bottom: 15px;
 }
 .email-our-img img{width: 100%;height: auto;}
 .email-our-img, .email-our-text{
-	width: 45%;
+	width: 244px;
 	display: inline-block;
 	vertical-align: middle;
 }
+.email-our-text{padding: 0 26px;text-align: left;}
 .email-target h2{
 	font-weight: bold;
 	font-size: 16px;
+	padding: 35px 26px 30px;
 }
 ul, li{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
+.email-target{}
 .email-target ul{
-	width: 50%;
+	width: 260px;
+	padding: 0 26px;
 	display: inline-block;
 
 }
@@ -132,86 +105,31 @@ ul, li{
 	padding-top: 30px;
 	vertical-align: middle;
 }
-.logo-block-text{font-weight: bold;display: inline-block;vertical-align: middle;}
+.logo-block-text{font-weight: bold;display: inline-block;vertical-align: middle;padding: 0 26px;}
 .logo-bottom{
-	float: right;
-	color: #FFF;
-	text-decoration: none;
-	font-weight: bold;
-	text-transform: uppercase;
 	display: inline-block;
-	vertical-align: middle;
-	padding: 0 18px;
-	margin-top: -7px;
 	height: 50px;
-	line-height: 50px;
-	background-image: -moz-linear-gradient( 180deg, rgb(235,78,66) 0%, rgb(247,162,59) 100%);
-	background-image: -webkit-linear-gradient( 180deg, rgb(235,78,66) 0%, rgb(247,162,59) 100%);
-	background-image: -ms-linear-gradient( 180deg, rgb(235,78,66) 0%, rgb(247,162,59) 100%);
+
 }
-.logo-bottom img{
-	width: 50px;
-	height: auto;
-	margin-top: -7px;
-	float: left;
-}
-.email-advantages{
-	clear: both;}
-.count{
-	font-size: 140px;
-	margin: 0;
-	padding: 0;
-	color: #eee;
-	font-weight: bold;
-	float: left;
-	display: inline-block;
-	line-height: .75;
-	margin-left: -17px;
-}
+.email-advantages{}
 .advantages-item{
-	background-image: -moz-linear-gradient( 0deg, rgb(237,89,66) 0%, rgb(245,152,60) 100%);
-	background-image: -webkit-linear-gradient( 0deg, rgb(237,89,66) 0%, rgb(245,152,60) 100%);
-	background-image: -ms-linear-gradient( 0deg, rgb(237,89,66) 0%, rgb(245,152,60) 100%);
-	height: 100px;
-	line-height: 100px;
-	width: 89%;
-	display: inline-block;
-	float: right;
-	margin-top: -103px;
-	padding-left: 20px;
-	overflow: hidden;
-	margin-bottom: 30px;
+	height: auto;
+	width: 100%;
+	margin-bottom: 20px;
 }
-.advantages-item-text{
-	width: 50%;
-	color: #fff;
-	font-size: 14px;
-	font-weight: bold;
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0;
-}
+.advantages-item:nth-child(3){margin-left: -6px;}
+.advantages-item:nth-child(4){margin-left: -3px; width: 98%;}
+.advantages-item:nth-child(5){margin-left: -13px;}
+.advantages-item:nth-child(6){margin-left: -11px;}
+.advantages-item:nth-child(7){margin-left: -10px;}
 .advantages-item-img{
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
-	background-color: #fff;
-	float: right;
-	margin-top: -75px;
-	margin-right: -30px;
-	-webkit-background-size: auto;
-	background-size: auto;
-	background-position: left center;
-	background-repeat: no-repeat;
-	display: inline-block;
-	vertical-align: middle;
+
 }
+.advantages-item-img img{width: 100%;}
 .email-projects{
-	clear: both;
+	margin-top: 35px;
 	background-color: #f3f3f3;
-	padding: 20px 28px;
-	margin-left: -28px;
-	margin-right: -28px;
+	padding: 20px 26px;
 	text-align: center;
 }
 .projects-text{
@@ -221,18 +139,15 @@ ul, li{
 	margin-top: 20px;
 }
 .projects-link{font-weight: bold;text-transform: uppercase;text-decoration: none;color: #0a0a0a;}
+
 .email-mail h2{
 	padding: 35px 0;
 }
 .mail-block{
+	background-image: url(../img/grad-bg.jpg);
 	text-align: center;
 	color: #fff;
-	margin-left: -28px;
-	margin-right: -28px;
-	padding: 20px 28px;
-	background-image: -moz-linear-gradient( 0deg, rgb(237,89,66) 0%, rgb(245,152,60) 100%);
-	background-image: -webkit-linear-gradient( 0deg, rgb(237,89,66) 0%, rgb(245,152,60) 100%);
-	background-image: -ms-linear-gradient( 0deg, rgb(237,89,66) 0%, rgb(245,152,60) 100%);
+	padding: 25px 26px;
 }
 .mail-block a{
 	color: #fff;
@@ -240,7 +155,7 @@ ul, li{
 	text-decoration: none;
 }
 .email-footer{
-	padding: 25px 0;
+	padding: 25px 26px;
 	background-color: #fff;
 	font-size: 14px;
 
@@ -264,10 +179,6 @@ ul, li{
 	.email-services-item{
 		max-width: 240px;
 	}
-	.email-no-services-item{width: 240px;}
-	.email-our-img{
-		margin-right: 38px;
-	}
 	.logo-bottom{padding: 0 10px;}
 
 }
@@ -276,7 +187,7 @@ ul, li{
 	.logo-bottom{float: none;margin: 0 auto; margin-top: 15px;}
 	.logo-block{text-align: center;}
 	.email-target img{float: none;margin: 0 auto;padding-right: 0;}
-	.email-target ul{width: 100%;}
+	.email-target ul{width: 90%;}
 	h2{
 		padding-top: 35px;
 		padding-bottom: 30px;
@@ -288,21 +199,12 @@ ul, li{
 		margin-bottom: 30px;
 	}
 	.email-services-item:nth-child(odd){float: none;}
-	.email-no-services-item{width: 100%;float: none;margin-bottom: 20px;}
 	.services-item-img{
 		-webkit-background-size: cover;
 		background-size: cover;
 		margin-left: auto;
 		width: 100%;
 		border-radius: 0;
-	}
-	.email-our-img{
-		margin-right: 0;
-	}
-	.email-our-img, .email-our-text{
-		width: 100%;
-		text-align: center;
-		display: block;
 	}
 	.logo-bottom img{margin: 0; float: left;margin-top: -7px;margin-right: 10px;}
 	.advantages-item-img{
@@ -320,14 +222,5 @@ ul, li{
 	}
 	.footer-right{
 		margin-top: 10px;
-	}
-	.advantages-item-img{display: none;}
-	.advantages-item-text{
-		width: 100%;
-		text-align: center;
-	}
-	.advantages-item{
-		width: 87%;
-		padding-left: 0;
 	}
 }
