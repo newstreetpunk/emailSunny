@@ -117,14 +117,6 @@ ul, li{
 	width: 100%;
 	margin-bottom: 20px;
 }
-.advantages-item:nth-child(3){margin-left: -6px;}
-.advantages-item:nth-child(4){margin-left: -3px; width: 98%;}
-.advantages-item:nth-child(5){margin-left: -13px;}
-.advantages-item:nth-child(6){margin-left: -11px;}
-.advantages-item:nth-child(7){margin-left: -10px;}
-.advantages-item-img{
-
-}
 .advantages-item-img img{width: 100%;}
 .email-projects{
 	margin-top: 35px;
